@@ -64,3 +64,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	box-style: border-box;
+}
+
+.topBar{
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
+
+.navBar {
+	display: inline;
+	text-align: center;
+	margin: 5%;
+}
+
+.logo{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin: 10%
+	verticle-align: right;
+	max-height: 85px;
+}
+
+.navBarLink{	
+	padding: 10px;
+	color: grey;
+}
+
+.navBarLink:hover{	
+	color: black;
+}
