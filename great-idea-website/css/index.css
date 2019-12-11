@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 *{
-	box-style: border-box;
+	box-sizing: border-box;
 }
 
 .topBar{
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5 {
 	margin-top: auto;
 	margin-bottom: auto;
 	margin: 10%
-	verticle-align: right;
+	vertical-align: center;
 	max-height: 85px;
 }
 
@@ -94,4 +94,89 @@ h1, h2, h3, h4, h5 {
 
 .navBarLink:hover{	
 	color: black;
+}
+
+.sectionOne{
+	margin-bottom: 30px;
+	vertical-align: middle;
+	padding: 1% 5% 1% 5%;
+}
+
+h1{
+	font-size: 72px;
+	display: inline-block;
+	height: 192px;
+	width: 325px;
+	text-align: center;
+}
+
+.innovation{
+	/* padding: ??? ; */
+}
+
+.getStarted{
+	display: block;
+	margin-bottom: 30px;
+	margin-left: 100px;
+	padding: 5px 10px 5px 10px;
+	border: 2px solid grey;
+	width: 180px;
+	text-align: center;
+	color: grey; 
+}
+
+.getStarted:hover{
+	color: black;
+	border: 2px solid black;
+}
+
+.imageOne{
+	margin: 25%;
+	vertical-align: middle;
+	max-height:  726px;
+}
+
+h2{
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.firstText{
+	padding: 2% 5%  2% 5%;
+	column-count: 2;
+}
+
+.about{
+	width: 48%;
+}
+
+.features{
+	width: 48%;
+}
+
+
+
+.middle-img{
+	display: block;
+	margin: auto;
+}
+
+.secondText{
+	column-count: 3;
+	padding: 2% 5%  2% 5%;
+
+}
+
+footer{
+	margin: 30px;
+}
+
+h3{
+	margin: 1px;
+	padding: 1px;
+}
+
+.copyright{
+	text-align: center;
+	margin-bottom: 50px;
 }
