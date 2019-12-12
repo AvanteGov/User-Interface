@@ -108,3 +108,110 @@ nav {
 	color: darkslategrey;
 
 }
+
+.navBarLink:hover{
+	text-decoration: none;
+	color: lightslategrey;
+}
+
+hr{
+	margin: 5%;
+}
+
+h1{
+	font-size: 72px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	text-align: center;
+}
+
+.sectionOne{
+	display: flex;
+
+}
+
+.innovation{
+	display: flex;
+	width: 45%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.getStarted{
+	text-decoration: none;
+}
+
+.imageOne{
+	display: flex;
+	width: 45%;
+	align-self: center;
+}
+
+#getStartedLink{
+	width: 182px;
+	height: 40px;
+	border: 2px solid lightslategray;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	background: lightgray;
+}
+
+.getStarted{
+	color: black;
+}
+
+.getStarted:hover{
+	color: grey;
+}
+
+#getStartedLink:hover{
+	border: 2px solid lightslategrey;
+	background: white;
+}
+
+
+.firstText{
+	display: flex;
+	margin: 0% 5% 2% 5%;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.features{
+	width: 45%;
+}
+
+.about{
+	width: 45%;
+}
+
+.middleImg{
+	display: flex;
+	justify-content: center;
+}
+
+.secondText{
+	display: flex;
+	margin: 2% 5% 2% 5%;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+footer{
+	margin: 30px;
+}
+
+h3{
+	margin: 1px;
+	padding: 1px;
+}
+
+.copyright{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
