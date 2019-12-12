@@ -215,3 +215,56 @@ h3{
 	margin-bottom: 50px;
 }
 
+.servicesHeader{
+	display: flex;
+	margin: 2% 5% 2% 5%;
+	flex-direction: column;
+}
+
+.servicesHeaderImg{
+	display: flex;
+	justify-content: center;
+}
+
+.servicesHeaderText{
+	font-size: 36px;
+}
+
+.button{
+	width: 182px;
+	height: 40px;
+	border: 2px solid lightslategray;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	background: lightgray;	
+}
+
+.button:hover{
+	border: 2px solid lightslategrey;
+	background: white;
+}
+
+.servicesSectionTwo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-basis:calc(50% - 10px)
+}
+
+.servicesFeatureBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 2px solid black;
+	width: 500px;
+	height: 250px;
+	margin: 2% 1% 2% 1%;
+	padding: 3%;
+}
+
+.sectionTwoContent{
+	width: 90%;
+}
+
